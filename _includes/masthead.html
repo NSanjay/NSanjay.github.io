@@ -51,4 +51,14 @@
       <span title="Hire me" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">Available for hire</span>
     {% endif %}
   </div>
+
+  <div class="f4 mb-6">
+    <ul>
+      {% for item in site.data.menus.sidebar %}
+        <li class="menu-item-{{ loop.index }}" style="display:list-item;list-style:none">
+          <a href="{{ item.url }}" title="Go to {{ item.title }}"><i class ="{{item.icon}}"></i><span>{{ item.title }}</span></a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 {% endif %}
