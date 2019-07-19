@@ -1,5 +1,6 @@
 layout: sidebar
 style: light
+markdown: kramdown
 
 plugins:
   - jekyll-octicons
