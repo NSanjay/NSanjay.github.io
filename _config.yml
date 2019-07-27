@@ -1,6 +1,7 @@
 layout: sidebar
 style: light
 markdown: kramdown
+email: sanjaynarayana63@gmail.com
 
 plugins:
   - jekyll-octicons
@@ -9,6 +10,7 @@ plugins:
   - jekyll-menus
 
 permalink: /:year/:month/:day/:title/
+
 
 defaults:
   -
@@ -25,6 +27,7 @@ projects:
   #   - stars
   limit: 9
   exclude:
+    
     archived: false
     forks: true
     projects:
@@ -38,6 +41,7 @@ social_media:
   # instagram: your_username
   # keybase: your_username
   linkedin: sanjaynarayanabki
+  github: NSanjay
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
