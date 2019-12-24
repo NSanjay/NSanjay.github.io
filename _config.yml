@@ -1,21 +1,16 @@
-layout: sidebar
-style: light
+#url: https://y7kim.github.io
+#baseurl: /agency-jekyll-theme
 
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
   - jemoji
-  - jekyll-menus
+# Site settings
+title: NLP & ML Enthusiast
+email: your-email@domain.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 permalink: /:year/:month/:day/:title/
-
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
-    values:
-      layout: "post"
 
 projects:
   sort_by: pushed
@@ -26,8 +21,49 @@ projects:
   exclude:
     archived: false
     forks: true
-    projects:
-    # - repo-name
+    projects: NSanjay.github.io
+# Team names, titles and social links
+people:
+- name: Kay Garland
+  pic: 1
+  position: Lead Designer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Larry Parker
+  pic: 2
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Diana Petersen
+  pic: 3
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/sanjaynarayanabki
+  - title: github
+    url: https://github.com/NSanjay
+  - title: envelope
+    url: mailto:sanjaynarayana63@gmail.com
 
 social_media:
   # behance: your_username
@@ -37,23 +73,13 @@ social_media:
   # instagram: your_username
   # keybase: your_username
   linkedin: sanjaynarayanabki
-  # mastodon: your_username
-  # medium: your_username
-  # stackoverflow: your_user_id
-  # telegram: your_username
-  # twitter: your_username
-  # unsplash: your_username
-  # vk: your_username
-  # website: http://your_website_url
-  # youtube: your_username
+  github: NSanjay
 
-topics:
-  - name: Machine Learning
-    web_url: https://github.com/topics/machine-learning
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
 
-  - name: Natural Language Processing
-    web_url: https://github.com/topics/nlp
-    
-
-  - name: tensorflow
-    web_url: https://github.com/topics/tensorflow
+# Build settings
+markdown: kramdown
+permalink: pretty
